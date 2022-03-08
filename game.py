@@ -7,16 +7,10 @@ from sys import argv
 
 versionlaun, usernamelaun, uuidlaun, accessTokenlaun = argv
 
-"""
-Debug output
-"""
 def debug(str):
     if os.getenv('DEBUG') != None:
         print(str)
 
-"""
-[Gets the natives_string toprepend to the jar if it exists. If there is nothing native specific, returns and empty string]
-"""
 def get_natives_string(lib):
     arch = ""
     if platform.architecture()[0] == "64bit":
@@ -41,10 +35,6 @@ def get_natives_string(lib):
 
     return nativesFile
 
-
-"""
-[Parses "rule" subpropery of library object, testing to see if should be included]
-"""
 def should_use_library(lib):
     def rule_says_yes(rule):
         useLib = None
@@ -80,9 +70,6 @@ def should_use_library(lib):
 
     return shouldUseLibrary
 
-"""
-[Get string of all libraries to add to java classpath]
-"""
 def get_classpath(lib, mcDir):
     cp = []
 

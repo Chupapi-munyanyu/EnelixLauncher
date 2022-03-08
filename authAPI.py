@@ -36,7 +36,6 @@ def loginmine():
     #DEFAULT-VARIABLE------------------------------------------------
     client_id='1a4b9403-1f4d-46f3-9dcb-08aa6f0667e6'
     client_secrete = "SUa7Q~fDB1P8JOtUG6mfK8d4A9H_VJLUnmnwF"
-    #Account connection to application link here https://login.live.com/oauth20_authorize.srf?client_id=1a4b9403-1f4d-46f3-9dcb-08aa6f0667e6&response_type=code&redirect_uri=https://deda-212-34-48-70.eu.ngrok.io&scope=XboxLive.signin%20offline_access&state=NOT_NEEDED
     redirect_uri = 'https://deda-212-34-48-70.eu.ngrok.io'
     #FIRST-TOKEN----------------------------------------------------- MICROSOFT ACC
     headers = {'Content-Type': 'application/x-www-form-urlencoded'}
