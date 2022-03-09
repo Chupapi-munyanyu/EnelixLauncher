@@ -1,0 +1,97 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "E:/GitClone/EnelixLauncher/launcher.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": true
+  },
+  {
+   "optionDest": "console",
+   "value": false
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "E:/GitClone/EnelixLauncher/icon.ico"
+  },
+  {
+   "optionDest": "name",
+   "value": "EnelixLauncher"
+  },
+  {
+   "optionDest": "ascii",
+   "value": false
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "embed_manifest",
+   "value": true
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "win_private_assemblies",
+   "value": false
+  },
+  {
+   "optionDest": "win_no_prefer_redirects",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "E:/GitClone/EnelixLauncher/authAPI.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "E:/GitClone/EnelixLauncher/game.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "E:/GitClone/EnelixLauncher/UUID.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "E:/GitClone/EnelixLauncher/launcher.ui;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "E:/GitClone/EnelixLauncher/res/svg.png;."
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}

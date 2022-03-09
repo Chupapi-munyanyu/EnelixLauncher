@@ -1,0 +1,1 @@
+here unzip content folder "jdk-17.0.2" in java you can download here: https://jdk.java.net/17/
