@@ -1,2 +1,2 @@
 # EnelixLauncher
-open-source python minecraft launcher
+open-source python minecraft launcher (fully works only on Linux)
